@@ -1,0 +1,40 @@
+.drop-zone {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+.drop-zone .drop-zone__input {
+  display: none;
+}
+.drop-zone .drop-zone__thumb {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.drop-zone .drop-zone__name {
+  padding: 5px 0;
+  color: #fff;
+  background: rgba(0,0,0,0.75);
+  font-size: 14px;
+}
+.drop-zone .drop-zone__delete {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  padding: 0 10px;
+  border-radius: 50%;
+  right: 10px;
+  top: 10px;
+}
+.drop-zone .drop-zone__delete:hover,
+.drop-zone .drop-zone__delete:active {
+  background: #fff;
+  color: #000;
+  border-radius: 1px solid #6b6b6b;
+}
+.drop-zone--over {
+  border-style: solid;
+}
